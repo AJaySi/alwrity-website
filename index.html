@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+<!-- banner -->
+{% if site.data.homepage.banner.enable %}
+<section class="banner bg-cover"
+  style="background-image: url('{{ site.data.homepage.banner.bg_image | relative_url }}');">
+  <img src="{{ site.data.homepage.banner.image | relative_url }}" class="img-fluid illustration" alt="">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <h1>{{ site.data.homepage.banner.title }}</h1>
+      </div>
+      <div class="col-lg-6 illustration-mobile">
+        <img src="{{ site.data.homepage.banner.image | relative_url }}" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- /banner -->
+
+
+{% if site.data.features %}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for feature in site.data.features %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if feature.image %}
+          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ feature.title }}</h2>
+          <div class="feature-content">{{ feature.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="alert alert-info d-flex justify-content-center align-items-center" role="alert" style="font-size: 24px;">
+    <i class="bi bi-info-circle-fill" style="font-size: 24px; margin-right: 10px;"></i>
+    <div markdown="span" style="margin-left: 0.7em;">
+        <span style="font-weight: bold;">Attention:</span> Not your average, <span style="font-weight: bold;">💩💩Hey LLM, Write a blog on💩💩 </span> Try me and I will show you How <span style="font-weight: bold;font-size: 30px;">Godly I am - Alwrity.</span>
+    </div>
+</div>
+
+
+<!-- call_to_action -->
+{% if site.data.homepage.call_to_action.enable %}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="row shadow bg-white p-5">
+          <div class="col-md-4 text-center text-md-left mb-4 mb-lg-0">
+            <img src="{{ site.data.homepage.call_to_action.image | relative_url }}" class="mr-4 img-fluid rounded" alt=""></div>
+          <div class="col-md-8 text-center text-md-left">
+            <h3 class="mt-0">{{ site.data.homepage.call_to_action.title }}</h3>
+            <p>{{ site.data.homepage.call_to_action.description }}</p>
+            {% if site.data.homepage.call_to_action.button.enable %}
+            <a href="{{ site.data.homepage.call_to_action.button.link | relative_url }}"
+              class="btn btn-primary">{{ site.data.homepage.call_to_action.button.label }}</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- /call_to_action -->
+
+<div class="alert alert-info d-flex justify-content-center align-items-center" role="alert" style="font-size: 24px;">
+    <i class="bi bi-info-circle-fill" style="font-size: 24px; margin-right: 10px;"></i>
+    <div markdown="span" style="margin-left: 0.7em;">
+        <span style="font-weight: bold;">Attention🤖:</span> Contextual AI Writer for blogging📝. Complete AI blogging toolkit. Writes blog articles with relevant images. SEO optimised content. 🔍Free & Open source AI writer.
+    </div>
+</div>
+
+<!-- blog -->
+<section class="section">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row">
+      <div class="col-lg-8 mx-auto px-0">
+        <div class="bg-white shadow block">
+          {% for post in paginator.posts %}
+          {% include post.html %}
+          {% endfor %}
+          <!-- pagination -->
+          {% include pagination.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /blog -->

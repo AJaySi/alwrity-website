@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Free & OSS - Alwrity",
+    "description": "Alwrity, is Free and Open Source. BYOK. Try it out Now.",
+    "image": {
+      "url": "assets/images/features/alwrity_metrics.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "AI & Neural Search",
+    "description": "Alwrity, uses Semantic, Neural and basic search for contextual text generation.",
+    "image": {
+      "url": "assets/images/features/alwrity_process.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Original & Unique Content",
+    "description": "Alwrity, ensures LLM generation do Not hallucinate.",
+    "image": {
+      "url": "assets/images/features/alwrity_main.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Creates blog Images",
+    "description": "Creates relevant images for blogs generated.",
+    "image": {
+      "url": "assets/images/features/alwrity_metrics.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Alwrity Blog Tools",
+    "description": "Visit tools page, to checkout list of all available tools.",
+    "image": {
+      "url": "assets/images/features/alwrity_process.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "AI Blogging Toolkit",
+    "description": "Alwrity, integrated with wordpress and SSG like jekyll, Hugo.",
+    "image": {
+      "url": "assets/images/features/alwrity_metrics.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Teach LLMs - latest articles",
+    "description": "Tavily, Metaphor, SERP & YOU.com integrated for contextual blog generation.",
+    "image": {
+      "url": "assets/images/features/alwrity_main.svg",
+      "width": 80,
+      "height": 80
+   	}
+   },
+   {
+    "title": "Humanized AI content",
+    "description": "Search Engines only care about 'Great Content' - Alwrity",
+    "image": {
+      "url": "assets/images/features/alwrity_process.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Blog in Minutes, Not Weeks",
+    "description": "Alwrity, does exhaustive web research, formatting, image, SEO and upload to website.",
+    "image": {
+      "url": "assets/images/features/alwrity_main.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Factual AI Writer - Alwrity",
+    "description": "Backed by multiple web researches, gives No chance to LLMs to halluciante.",
+    "image": {
+      "url": "assets/images/features/alwrity_process.svg",
+      "width": 80,
+      "height": 80
+    }
+  },{
+    "title": "Better AI blog writer than chatgpt4",
+    "description": "Well, latest web data and prompted guidance, using LLMs as 'only' text generators. Alwrity, then!",
+    "image": {
+      "url": "assets/images/features/alwrity_metrics.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

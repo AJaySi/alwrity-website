@@ -1,0 +1,17 @@
+####################### banner #######################################
+banner:
+  enable: true
+  title: "Hi, I'm ALWRITY. <br> I help people, write worlds best AI content(period)"
+  image: "/assets/images/banner/alwrity.jpeg"
+  bg_image: "/assets/images/banner/banner-bg.svg"
+
+######################## call to action ###############################
+call_to_action:
+  enable: true
+  title: "Get Started With Alwrity - Free & Open Source AI writer"
+  image: "/assets/images/banner/alwrity.jpeg"
+  description: "AI writer"
+  button:
+    enable: true
+    label: "Test Alwrity"
+    link: "https://github.com/AJaySi/AI-Blog-Writer"

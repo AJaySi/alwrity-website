@@ -1,0 +1,67 @@
+baseurl: "/alwrity" # the subpath of your site, e.g. blog/
+url: "https://alwrity.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com/
+
+title: Alwrity | Free & OSS AI Writer
+description: >- # this means to ignore newlines until "baseurl:"
+  Alwrity researches web and generates factual AI content. Its free & BYOK model.
+  Write on latest, niche blog keywords, save weeks of research time. Uses latest LLM free models.
+  Generates image with blog text to image. Leverages AI, SERP & neural web search. Tweak the prompts to fit your needs.
+
+#################### Comment Section (Disqus) ################
+disqus_shortname: "" # Add your shortname for Disqus Comment. For example : mr-brown
+
+# Scss Directory
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
+
+paginate: 6
+paginate_path: "/page/:num"
+
+home: 
+  limit_services: 6
+
+# include
+include:
+  - _pages
+  - _authors
+  - _services
+
+# Pages Path
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+
+  - scope:
+      path: "_authors"
+    values:
+      permalink: /author/:basename:output_ext
+      layout: author
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: post/:title:output_ext
+      layout: post
+
+# Tags
+tag_page_dir: tag
+tag_page_layout: tags
+tag_permalink_style: pretty
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
