@@ -31,7 +31,7 @@ logo: "/assets/images/logo.png"
 author: "Ajsi"
 description: "Contextual AI Writer for blogging. Complete AI blogging toolkit. Writes blog articles with relevant images. SEO optimised content. Free & Open source AI writer."
 # google analitycs ID
-google_analitycs_id: "" # your id
+google_analitycs_id: "G-ELVN8KPTGT"
 # contact form action
 contact_form_action: "#" # contact form works with : https://formspree.io
 # copyright

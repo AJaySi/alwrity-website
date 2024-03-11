@@ -10,7 +10,7 @@ call_to_action:
   enable: true
   title: "Get Started With Alwrity - Free & Open Source AI writer"
   image: "/assets/images/banner/alwrity.jpeg"
-  description: "AI writer"
+  description: "AI writer for all. AI web research for contextual blog generation."
   button:
     enable: true
     label: "Test Alwrity"

@@ -1,7 +1,7 @@
 baseurl: "" # the subpath of your site, e.g. blog/
 url: "https://alwrity.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com/
 
-title: Alwrity | Free & OSS AI Writer
+title: Alwrity | AI writer - Free & OSS - BYOK
 description: >- # this means to ignore newlines until "baseurl:"
   Alwrity researches web and generates factual AI content. Its free & BYOK model.
   Write on latest, niche blog keywords, save weeks of research time. Uses latest LLM free models.
@@ -23,7 +23,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
 
-paginate: 6
+paginate: 10
 paginate_path: "/page/:num"
 
 home: 
