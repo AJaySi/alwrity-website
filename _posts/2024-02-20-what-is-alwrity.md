@@ -80,7 +80,30 @@ This toolkit automates and enhances the process of blog creation, optimization, 
   - OpenAI API: Powers the Large Language Models (LLMs) for generating blog content and conducting research.
   - Gemini API: Another LLM provider for natural language processing tasks.
   - Ollama API (Work In Progress): An upcoming LLM provider for additional research and content generation capabilities.
-
+<!-- call_to_action -->
+{% if site.data.homepage.call_to_action.enable %}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="row shadow bg-white p-5">
+          <div class="col-md-4 text-center text-md-left mb-4 mb-lg-0">
+            <img src="{{ site.data.homepage.call_to_action.image | relative_url }}" class="mr-4 img-fluid rounded" alt=""></div>
+          <div class="col-md-8 text-center text-md-left">
+            <h3 class="mt-0">{{ site.data.homepage.call_to_action.title }}</h3>
+            <p>{{ site.data.homepage.call_to_action.description }}</p>
+            {% if site.data.homepage.call_to_action.button.enable %}
+            <a href="{{ site.data.homepage.call_to_action.button.link | relative_url }}"
+              class="btn btn-primary">{{ site.data.homepage.call_to_action.button.label }}</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- /call_to_action -->
 ## Getting Started
 
 To use this tool, follow these steps:
