@@ -73,11 +73,11 @@ tools:
   # tool loop in tool category
   - name: AI Blog Meta Description
     image: ""
-    link: 
+    link: https://alwrity-metadesc.streamlit.app/ 
   # tool loop in tool category
-  - name: AI Blog Title
-    image: ""
-    link: 
+  - name: AI Blog Title Generator
+    image: "/assets/images/post/blog_title_generator.png"
+    link: https://alwrity-title.streamlit.app/
   # tool loop in tool category
   - name: Write blog introduction with AI
     image: ""
@@ -92,8 +92,8 @@ tools:
     link:
   # tool loop in tool category
   - name: Generate Blog FAQs with SERP results.
-    image: ""
-    link: 
+    image: "/assets/images/post/blog_faq_generator.png"
+    link: https://alwrity-faq.streamlit.app/
   # tool loop in tool category
   - name: Research Blog referances / Citations
     image: "/assets/images/tools/Google-Analytics.jpg"
@@ -109,7 +109,7 @@ tools:
   # tool loop in tool category
   - name: Blog Proof Reader, checks grammar, sentence construction, tone etc.
     image: ""
-    link:
+    link: 
   # tool loop in tool category
   - name: Get blog Tags
     image: ""
