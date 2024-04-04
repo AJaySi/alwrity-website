@@ -1,12 +1,13 @@
 ---
-title: Create Human-Like AI Content - Tips & Techniques for Content Authenticity
+title: Create Human-Like AI- Tips and Techniques for Enhancing Content Authenticity
 date: 2024-02-08 04:42:29 +0530
 categories: [AI Content, Content Writing]
 tags: [Humanized Content, AI Content Creation]
 description: Embark on a Journey of Crafting Heartfelt AI Content- A Comprehensive Guide to Humanizing Digital Expressions for Enhanced Engagement, Trust, and SEO Success
-image: "/assets/images/post/ai-like-content.jpeg"
-alt: Create Human-Like AI- Tips and Techniques for Enhancing Content Authenticity
-
+img_path: '/assets/'
+image:
+    path: generated_image_2024-02-28-09-42-25.png
+    alt: Create Human-Like AI- Tips and Techniques for Enhancing Content Authenticity
 ---
 
 ## Crafting Heartfelt AI Content: A Guide to Humanizing Digital Expressions
